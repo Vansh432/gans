@@ -1,4 +1,5 @@
 import {Navbar,Footer,Header} from './components/Main'
+import ProductList from './components/ProductCard/ProductList.jsx'
 
 export default function App(){
 
@@ -6,6 +7,7 @@ export default function App(){
   <div>
     <Navbar/>
     <Header/>
+    <ProductList />
   
   <Footer/>
   </div>
