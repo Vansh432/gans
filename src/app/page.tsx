@@ -1,4 +1,4 @@
-import {Navbar,Footer,Header} from './components/Main'
+import {Navbar,Footer,Header,Shop} from './components/Main'
 
 export default function App(){
 
@@ -6,7 +6,9 @@ export default function App(){
   <div>
     <Navbar/>
     <Header/>
-  
+    <div className='pt-[50px] px-[200px]'>
+    <Shop/>
+    </div>
   <Footer/>
   </div>
   </>

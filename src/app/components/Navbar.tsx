@@ -19,7 +19,8 @@ export default function Navbar() {
             <ul className="flex justify-around space-x-8 w-[100%]">
               <li className="hover:text-blue-500 cursor-pointer text-[#000] text-[15px]">Home</li>
               <li className="hover:text-blue-500 cursor-pointer  text-[#000] text-[15px]">Products</li>
-              <li className="hover:text-blue-500 cursor-pointer  text-[#000] text-[15px]">Features</li>
+              <li className="hover:text-blue-500 cursor-pointer  text-[#000] text-[15px]">Child Safety</li>
+              <li className="hover:text-blue-500 cursor-pointer  text-[#000] text-[15px]">Schools</li>
               <li className="hover:text-blue-500 cursor-pointer  text-[#000] text-[15px]">Contact Us</li>
             </ul>
           </div>
@@ -30,7 +31,7 @@ export default function Navbar() {
             <AiOutlineShoppingCart  className='text-[#000] text-[30px]'/>
               </button>
 
-            <button className="bg-[#26848e] text-white w-[100px] h-[35px] px-4 py-2 rounded hover:bg-blue-600 transition duration-300 flex justify-center items-center">
+            <button className="bg-[#26848e] text-white w-[100px] h-[35px] px-4 py-2 rounded hover: transition duration-300 flex justify-center items-center">
               Login
             </button>
       
