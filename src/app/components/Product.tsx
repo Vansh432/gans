@@ -22,7 +22,7 @@ const ProductCard = () => {
           
           {/* Price Row */}
           <div className="flex justify-between items-center">
-            <span className="text-lg font-semibold text-red-600">$149.99</span>
+            <span className="text-lg font-semibold text-[#33993B]">$149.99</span>
             <button className="bg-[#26848e] text-white px-5 py-2 rounded-full font-semibold text-sm hover:bg-[#174347] transition-colors duration-400">
               Add to Cart
             </button>
