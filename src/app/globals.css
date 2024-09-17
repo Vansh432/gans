@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.rotate3d-custom {
+  @apply relative; /* or any other Tailwind utility classes you need */
+  transform: rotate3d(0, 10, -3, -32deg);
+}
 
 :root {
   --foreground-rgb: 0, 0, 0;
