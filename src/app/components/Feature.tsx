@@ -59,7 +59,7 @@ function Features() {
                 
                 <div className="w-[50%]  text-left flex justify-center items-center">
                     <div>
-                <h1 className="text-xl font-semibold  text-[40px] leading-[50px] text-[#26848E]">{element.title}</h1>
+                <h1 className="text-xl font-semibold   leading-[50px] text-[#26848E]"  style={{fontSize:"2.5rem"}}>{element.title}</h1>
                 <p className="mt-[25px] text-[.9rem] leading-[28px]">{element.description}</p>
                 </div>
                 </div>
