@@ -5,7 +5,7 @@ import { FaCar, FaMotorcycle, FaSuitcase } from 'react-icons/fa';
 import { GiBabyFace } from 'react-icons/gi';
 
 function Shop(){
-    const arr=[1,2,3,4];
+    const arr=[1,2,3];
     return <>
     <div className='text-center'>
         <h1 className='text-[#26848E] text-[1.8rem] font-[700] tracking-[.8px]'>Trusted GPS Tracking</h1>

@@ -1,3 +1,9 @@
+'use client'
+
+import AOS from 'aos';
+import 'aos/dist/aos.css'; 
+import { useEffect } from 'react';
+
 function Features() {
     const content=[
         {
@@ -46,7 +52,13 @@ function Features() {
             "isView": true
         }
     ];
-    
+    useEffect(()=>{
+    AOS.init({
+        offset: 400, 
+        delay: 0, 
+        duration: 1000
+    })},[]
+)
     
     return (
         <>
@@ -63,12 +75,11 @@ function Features() {
                 <p className="mt-[25px] text-[.9rem] leading-[28px]">{element.description}</p>
                 </div>
                 </div>
-                <div className="mt-4 w-[50%]" style={{perspective:"100em"}}>
+                <div data-aos={`${element.isView?'fade-left':'fade-right'}`} className="mt-4 w-[50%]" style={{perspective:"100em"}}>
                     <video className="shadow-[0_0_10px_rgba(0,0,0,0.2)] rounded-[10px]"
                         src="https://www.onelap.in/assets/gifs/Playback%20history.mp4"
-                        
-                        controls
-                        style={{
+                        autoPlay
+                                                style={{
                             position: "relative",
                             width: "60%",
                             height: "450px",
