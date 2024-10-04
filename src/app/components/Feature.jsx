@@ -54,15 +54,15 @@ function Features() {
     ];
     useEffect(()=>{
     AOS.init({
-        offset: 400, 
-        delay: 0, 
+        offset: 1400, 
+        delay: 100, 
         duration: 1000
     })},[]
 )
     
     return (
         <>
-            <div className="mt-[120px] text-center">
+            <div className="mt-[120px] text-center mb-[120px] mx-[120px]">
                 <h1 className="text-[1.8rem] font-bold">Real-Time GPS Asset Tracking</h1>
                 <p className="text-[.9rem]">Our GPS tracking system lets you manage your assets remotely, giving you peace of mind.</p>
             {content.map((element)=>{
